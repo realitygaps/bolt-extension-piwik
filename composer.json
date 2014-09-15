@@ -1,0 +1,33 @@
+{
+	"name" : "bolt/piwik",
+	"description" : "Adds code for piwik to your template",
+	"type" : "bolt-extension",
+	"keywords" : [
+		""
+	],
+	"require" : {
+		"bolt/bolt" : ">=2.0.0,<3.0.0"
+	},
+	"license" : "GPL",
+	"authors" : [{
+			"name" : "realitygaps",
+			"email" : "bolt@gapsinreality.com"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"init.php"
+		],
+		"psr-4" : {
+			"Bolt\\Extension\\Bolt\\Piwik\\" : [
+				"",
+				"src/"
+			]
+		}
+	},
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "2.*"
+        }
+    }
+}
